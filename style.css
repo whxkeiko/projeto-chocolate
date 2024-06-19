@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  header {
+    width: 100%;
+    background-image: url("assets/banner.png");
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 100px;
+
+} 
+nav > div:nth-child(2) > img{
+    width: 130px ;
+
+}
+nav > :last-child > img {
+    margin: 0 10px ;
+}
+h1 {
+    font-family: "Yanone Kaffeesatz", sans-serif;
+    color:white;
+}
